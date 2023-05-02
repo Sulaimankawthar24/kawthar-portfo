@@ -1,45 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>personal portfolio website</title>
-    <link rel="stylesheet" href="styles.css">
-    <script>https//fontawesome.com/v4/icons/</script>
+  <meta charset="UTF-8">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-facebook"></i>
+  <header>
+    <h1>Sulaiman Kawthar</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="hero">
-            <nav>
-              <img src="images/logo.png" alt="">
-              <u1>
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="kawthar img/kawthar.img.jpg" alt="image of kawthar" class="kawthar">
+    <p>hi,
+        my name is kawthar. i am a software engineer, a chef, i am a graduate of health promotion and 
+    enviromental health education. i am from kwara state,i based in ilorin. i'm currently a student 
+of tiidelab to become a professional frontend developer. </p>
+  </section>
 
-                <li> <a href="#">Home</a></li>
-                <li> <a href="#">About</a></li>
-                <li> <a href="#">portfolio</a></li>
-                <li> <a href="#">Service</a></li>
-                <li> <a href="#">Hire Me</a></li>
-              </u1>
-         </nav>
-         <div class="detel">
-            <h1>I'm Kawthar <span>Sulaiman</span></h1>
-            <p>This is my official portfolio website to shows all
-                <br>Details and work expirins web development
-            </p>
-            <a href="#">DOWNLOAD CV</a> 
-         </div>
-         <div class="images">
-            <img src=":kawthar.img.jpg" class="shape">
-            <img src="kawthar.img.jpg"  class="girl">
-         </div>
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <img src="kawthar img/amura.jpg" alt="image of portfolio" class="amura">
+      <img src="kawthar img/kawthars.jpg" alt="image of portfolio" class="kawthars">
+      <img src="kawthar img/sulaiman.jpg" alt="image of portfolio" class="sulaiman">
+      <!--  -->
+    </div>
+  </section>
 
-         </div>
-      </header>
-    
-    
+  <section id="contact"></section>
+
+  <form action="/contact" method="POST">
+    <label for="name">Name:</label></form></body></br>
+    <input type="text" id="name" name="name" ></br>
+  
+    <label for="email">Email:</label></html></br>
+    <input type="email" id="email" name="email"></br>
+  
+    <label for="message">Message:</label></br>
+    <textarea id="message" name="message" rows="4" ></textarea></br>
+  
+    <input type="submit" value="Submit"></br>
+  </form>
+  <div class="home-sci">
+    <a href=""><i class='bx bxl-twitter'></i></a>
+    <a href=""><i class='bx bxl-instagram' ></i></a>
+    <a href=""><i class='bx bxl-linkedin' ></i></a>
+  </div>
+
+
+  <footer>
+    <p>&copy; 2023 sulaiman Kawthar. All rights reserved.
+  </footer>
 </body>
 </html>
